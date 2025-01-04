@@ -20,7 +20,7 @@ brew "cmake"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
 # Pack, ship and run any application as a lightweight container
-brew "docker"
+brew "docker", link: false
 # Collection of GNU find, xargs, and locate
 brew "findutils"
 # GNU awk utility
@@ -44,7 +44,7 @@ brew "hub"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick"
 # Kubernetes command-line interface
-brew "kubernetes-cli"
+brew "kubernetes-cli", link: false
 # Portable Foreign Function Interface library
 brew "libffi"
 # Development kit for the Java programming language
@@ -141,6 +141,7 @@ vscode "ms-vscode-remote.remote-containers"
 vscode "redhat.java"
 vscode "visualstudioexptteam.intellicode-api-usage-examples"
 vscode "visualstudioexptteam.vscodeintellicode"
+vscode "vscjava.vscode-gradle"
 vscode "vscjava.vscode-java-debug"
 vscode "vscjava.vscode-java-dependency"
 vscode "vscjava.vscode-java-pack"
