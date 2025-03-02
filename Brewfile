@@ -91,6 +91,8 @@ brew "webkit2png"
 brew "wget"
 # UNIX shell (command interpreter)
 brew "zsh"
+# App to build and share containerised applications and microservices
+cask "docker"
 # Free and open-source image editor
 cask "gimp"
 # Web browser
