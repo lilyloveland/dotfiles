@@ -3,10 +3,6 @@ tap "homebrew/bundle"
 tap "homebrew/services"
 # Search tool like grep, but optimized for programmers
 brew "ack"
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@3"
-# Library for command-line editing
-brew "readline"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Terminal bandwidth utilization tool
@@ -95,14 +91,14 @@ brew "webkit2png"
 brew "wget"
 # UNIX shell (command interpreter)
 brew "zsh"
-# App to build and share containerised applications and microservices
-cask "docker"
 # Free and open-source image editor
 cask "gimp"
 # Web browser
 cask "google-chrome"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# Free cross-platform office suite, fresh version
+cask "libreoffice"
 # Provides updates to various Microsoft products
 cask "microsoft-auto-update"
 # Reverse proxy, secure introspectable tunnels to localhost
@@ -139,6 +135,7 @@ vscode "ms-toolsai.vscode-jupyter-cell-tags"
 vscode "ms-toolsai.vscode-jupyter-slideshow"
 vscode "ms-vscode-remote.remote-containers"
 vscode "redhat.java"
+vscode "tomoki1207.pdf"
 vscode "visualstudioexptteam.intellicode-api-usage-examples"
 vscode "visualstudioexptteam.vscodeintellicode"
 vscode "vscjava.vscode-gradle"
