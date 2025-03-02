@@ -3,6 +3,8 @@ tap "homebrew/bundle"
 tap "homebrew/services"
 # Search tool like grep, but optimized for programmers
 brew "ack"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.12"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Terminal bandwidth utilization tool
@@ -11,6 +13,8 @@ brew "bandwhich"
 brew "bash"
 # Programmable completion for Bash 3.2
 brew "bash-completion"
+# GNU internationalization (i18n) and localization (l10n) library
+brew "gettext"
 # Cross-platform make
 brew "cmake"
 # GNU File, Shell, and Text utilities
@@ -57,6 +61,8 @@ brew "nvm"
 brew "ollama", link: false
 # 7-Zip (high compression file archiver) implementation
 brew "p7zip"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.13"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
 # Python version management
