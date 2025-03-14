@@ -65,6 +65,8 @@ brew "p7zip"
 brew "python@3.13"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
+# Python package management tool
+brew "poetry"
 # Python version management
 brew "pyenv"
 # Pyenv plugin to manage virtualenv
