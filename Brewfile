@@ -4,7 +4,7 @@ tap "homebrew/services"
 # Search tool like grep, but optimized for programmers
 brew "ack"
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.12"
+brew "python@3.13"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Terminal bandwidth utilization tool
@@ -63,8 +63,6 @@ brew "nvm"
 brew "ollama", link: false
 # 7-Zip (high compression file archiver) implementation
 brew "p7zip"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.13"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
 # Python package management tool
@@ -75,6 +73,8 @@ brew "pyenv"
 brew "pyenv-virtualenv"
 # Alternative to pyenv for managing virtualenvs
 brew "pyenv-virtualenvwrapper"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.12"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.9"
 # Install various Ruby versions and implementations
