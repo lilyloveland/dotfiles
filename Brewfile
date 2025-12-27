@@ -129,6 +129,8 @@ cask "vnc-viewer"
 cask "xquartz"
 # Video communication and virtual meeting platform
 cask "zoom"
+vscode "github.copilot"
+vscode "github.copilot-chat"
 vscode "ms-azuretools.vscode-containers"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-python.debugpy"
