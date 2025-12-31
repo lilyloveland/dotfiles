@@ -57,8 +57,6 @@ brew "moreutils"
 brew "nmap"
 # Manage multiple Node.js versions
 brew "nvm"
-# Create, run, and share large language models (LLMs)
-brew "ollama", link: false
 # 7-Zip (high compression file archiver) implementation
 brew "p7zip"
 # Execute binaries from Python packages in isolated environments
