@@ -39,7 +39,7 @@ brew "go"
 brew "htop"
 # Add GitHub support to git on the command-line
 brew "hub"
-# Tools and libraries to manipulate images in many formats
+# Tools and libraries to manipulate images in select formats
 brew "imagemagick"
 # Kubernetes command-line interface
 brew "kubernetes-cli", link: false
@@ -125,7 +125,6 @@ cask "vnc-viewer"
 cask "xquartz"
 # Video communication and virtual meeting platform
 cask "zoom"
-vscode "github.copilot"
 vscode "github.copilot-chat"
 vscode "ms-azuretools.vscode-containers"
 vscode "ms-azuretools.vscode-docker"
