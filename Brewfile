@@ -3,8 +3,6 @@ tap "buo/cask-upgrade"
 brew "ack"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.13"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Terminal bandwidth utilization tool
@@ -27,6 +25,10 @@ brew "findutils"
 brew "gawk"
 # GNU compiler collection
 brew "gcc"
+# Portable Foreign Function Interface library
+brew "libffi"
+# Interact with Google Gemini AI models from the command-line
+brew "gemini-cli"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
@@ -43,8 +45,6 @@ brew "hub"
 brew "imagemagick"
 # Kubernetes command-line interface
 brew "kubernetes-cli", link: false
-# Portable Foreign Function Interface library
-brew "libffi"
 # Development kit for the Java programming language
 brew "openjdk"
 # Java-based project management
@@ -67,6 +67,8 @@ brew "pyenv"
 brew "pyenv-virtualenv"
 # Alternative to pyenv for managing virtualenvs
 brew "pyenv-virtualenvwrapper"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.13"
 # Install various Ruby versions and implementations
 brew "ruby-build"
 # Ruby version manager
@@ -109,12 +111,8 @@ cask "ngrok"
 cask "ollama-app"
 # Finds large, unwanted files and deletes them
 cask "omnidisksweeper"
-# Collaboration platform for API development
-cask "postman"
 # Team communication and collaboration software
 cask "slack"
-# 3D printer and slicing GUI
-cask "ultimaker-cura"
 # Open-source code editor
 cask "visual-studio-code"
 # Multimedia player
@@ -125,7 +123,6 @@ cask "vnc-viewer"
 cask "xquartz"
 # Video communication and virtual meeting platform
 cask "zoom"
-vscode "github.copilot-chat"
 vscode "ms-azuretools.vscode-containers"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-python.debugpy"
@@ -147,3 +144,4 @@ vscode "vscjava.vscode-java-debug"
 vscode "vscjava.vscode-java-dependency"
 vscode "vscjava.vscode-java-pack"
 vscode "vscjava.vscode-maven"
+npm "cline"
