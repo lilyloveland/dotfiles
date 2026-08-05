@@ -1,4 +1,3 @@
-tap "buo/cask-upgrade"
 # Search tool like grep, but optimized for programmers
 brew "ack"
 # Cryptography and SSL/TLS Toolkit
