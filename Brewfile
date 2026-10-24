@@ -1,7 +1,6 @@
+tap "buo/cask-upgrade"
 # Search tool like grep, but optimized for programmers
 brew "ack"
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@3"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Terminal bandwidth utilization tool
@@ -26,8 +25,6 @@ brew "gawk"
 brew "gcc"
 # Portable Foreign Function Interface library
 brew "libffi"
-# Interact with Google Gemini AI models from the command-line
-brew "gemini-cli"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
@@ -38,8 +35,6 @@ brew "gnu-sed"
 brew "go"
 # Improved top (interactive process viewer)
 brew "htop"
-# Add GitHub support to git on the command-line
-brew "hub"
 # Tools and libraries to manipulate images in select formats
 brew "imagemagick"
 # Kubernetes command-line interface

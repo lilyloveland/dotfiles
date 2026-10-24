@@ -16,13 +16,11 @@ echo "Updating homebrew and caskroom"
 brew update
 brew outdated --greedy
 echo "Installing homebrew and caskroom packages"
-brew upgrade
 # upgrade casks
-brew upgrade --greedy
+brew upgrade --greedy --no-ask
 brew bundle
-brew cu
 brew cleanup
 brew autoremove
 
 echo "Create Brewfile"
-brew bundle dump --force --describe --file="${BREWFILE}"
+brew bundle dump --force --file="${BREWFILE}"
